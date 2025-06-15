@@ -1,0 +1,17 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="GameOverManager">
+			<method name="RestartGame"/>
+			<method name="ReturnToMainMenu"/>
+		</type>
+		<type fullname="MainMenu">
+			<method name="Exit"/>
+			<method name="Play"/>
+		</type>
+		<type fullname="PauseMenu">
+			<method name="GoToMainMenu"/>
+			<method name="QuitGame"/>
+			<method name="ResumeGame"/>
+		</type>
+	</assembly>
+</linker>
